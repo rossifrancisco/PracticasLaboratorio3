@@ -11,7 +11,7 @@ import WatchList from './components/watchList/WatchList';
 function App() {
   const returnMovieTitle = (watchlist) => {
     return watchlist.map((movie) => {
-      if (movie.Director === 'Christopher Nolan' && movie.imdbRating > 8.0) {
+      if (movie.Director === 'Christopher Nolan' && parseFloat(movie.imdbRating) > 8.0) {
         return movie.Title;
       } else {
         return null;
