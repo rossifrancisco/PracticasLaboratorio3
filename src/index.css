@@ -1,0 +1,45 @@
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-width: 500px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  align-self: center;
+  min-width: 500px;
+  max-width: fit-content;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task-item p {
+  cursor: pointer;
+  padding: 0px 50px 0px 0px;
+}
+
+button {
+  background-color: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff3333;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+}
